@@ -1,0 +1,19 @@
+{
+  "name": "nalo-airtime-engine",
+  "version": "1.0.0",
+  "description": "Bulk Airtime & Wallet Transaction Engine for the Nalo Solutions NSS engineering challenge",
+  "main": "src/server.js",
+  "scripts": {
+    "start": "node src/server.js",
+    "dev": "node --watch src/server.js",
+    "test": "node --test"
+  },
+  "engines": {
+    "node": ">=20"
+  },
+  "dependencies": {
+    "csv-parse": "^5.6.0",
+    "express": "^5.1.0",
+    "multer": "^2.0.2"
+  }
+}
